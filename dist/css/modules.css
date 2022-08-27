@@ -22,9 +22,6 @@
     /*padding-inline-start: 0px;*/
 
 }
-.topnav div ul li a{
-
-}
 
 .topnav div:hover ul{
     display: block;
@@ -52,6 +49,10 @@
     display: flex;
     z-index: 27;
     margin-left: 1%;
+}
+
+.bg-light {
+    background-color: #24262d!important;
 }
 
 
