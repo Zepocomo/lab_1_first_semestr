@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.Hudai {
+    font-size: 36px;
+    font-family: "Roboto";
+    padding-left: 5%;
+    margin: 0;
+    color: rgb( 255, 255, 255 );
+    z-index: 19;
+}
+
+.joy_Dutta {
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-transform: uppercase;
+    text-align: left;
+    -moz-transform: matrix( 0.84304242386211, 0, 0, 0.84304242386211, 0, 0);
+    -webkit-transform: matrix( 0.84304242386211, 0, 0, 0.84304242386211, 0, 0);
+    opacity: 0.71;
+    z-index: 9;
+    margin: 0;
+}
+
+
+.Administrator {
+    margin: 0;
+    font-size: 11px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    -webkit-transform: matrix( 0.84304242386211, 0, 0, 0.84304242386211, 0, 0);
+    opacity: 0.71;
+    z-index: 10;
+}
