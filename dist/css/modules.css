@@ -30,6 +30,7 @@
 .profile_icon{
     height: 80px;
     width: 220px;
+    margin-left: 1%;
     background-color: #24262d;
     float: right;
     display: flex;
@@ -48,7 +49,7 @@
 .menu_lines {
     display: flex;
     z-index: 27;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 .bg-light {
