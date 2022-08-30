@@ -2,41 +2,35 @@
 <html class="no-js" lang="">
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/modules.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="sass/custom.scss">
+    <script src="js/scripts.min.js"></script>
     <style>
         i {
             font-family: fontawesome !important;
         }
-
     </style>
 </head>
 
 <body>
 <header>
-    <div class="topnav">
-        <div class="Medal"><img src="img/medal.png"></div>
-        <div class = "site_button"><p class="Hudai">Hudai</p></div>
-        <div class="menu_lines"><a href="#"><img src="img/menu_lines.png"></a></div>
-        <div class="lens"><a href="#"><img src="img/lens.png"></a>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul></div>
-        <div class="bell"><a href="#"><img src="img/bell.png"></a>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul></div>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+
+            <div class="Medal"><img src="img/medal.png"></div>
+            <div class = "site_button"><p class="Hudai">Hudai</p></div>
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/menu_lines.png"></span>
+            </div></div>
+        <div class="lens"><a href="#"><img src="img/lens.png"></a></div>
+        <div class="bell"><a href="#"><img src="img/bell.png"></a></div>
+
         <div class = "profile_icon">
             <img height="40" width="40" src="img/Profile_img.jpg" class="round">
             <div class="User_name_look">
@@ -45,20 +39,37 @@
             </div>
             <div class="angle_down"><a href="#"><i class="fa-solid fa-angle-down"></i></a></div>
         </div>
-    </div>
+        </div>
+    </nav>
 </header>
-<aside class="nav">
-    <ul class="list">
-        <li><a href="#"><i class="fa-solid fa-chart-column"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-calendar-days"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-file-lines"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-sliders"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
-    </ul>
-</aside>
+<div class="container-xl">
+    <div class="row">
+        <div class="col-3">
+            <div class="slider_block"><div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+
+            </div>
+            <div class="col"><img src="img/menu_lines.png"></div>
+        </div>
+    </div>
+    <!--<aside class="nav">-->
+    <!--    <ul class="list">-->
+    <!--        <li><a href="#"><i class="fa-solid fa-chart-column"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-calendar-days"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-file-lines"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-sliders"></i></a></li>-->
+    <!--        <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>-->
+    <!--    </ul>-->
+    <!--</aside>-->
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

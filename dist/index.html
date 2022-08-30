@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/modules.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="sass/custom.scss">
+    <script src="js/scripts.min.js"></script>
     <style>
         i {
             font-family: fontawesome !important;
@@ -21,23 +23,41 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
 
-        <div class="Medal"><img src="img/medal.png"></div>
-        <div class = "site_button"><p class="Hudai">Hudai</p></div>
-        <div class="menu_lines"><a href="#"><img src="img/menu_lines.png"></a></div>
-        <div class="lens"><a href="#"><img src="img/lens.png"></a></div>
-        <div class="bell"><a href="#"><img src="img/bell.png"></a></div>
+            <div class="Medal"><img src="img/medal.png"></div>
+            <div class = "site_button"><p class="Hudai">Hudai</p></div>
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/menu_lines.png"></span>
+            </div></div>
+            <div class="lens"><a href="#"><img src="img/lens.png"></a></div>
+            <div class="bell"><a href="#"><img src="img/bell.png"></a></div>
 
-        <div class = "profile_icon">
-            <img height="40" width="40" src="img/Profile_img.jpg" class="round">
-            <div class="User_name_look">
-                <p class="joy_Dutta">Joy Dutta</p>
-                <p class="Administrator">Administrator</p>
+            <div class = "profile_icon">
+                <img height="40" width="40" src="img/Profile_img.jpg" class="round">
+                <div class="User_name_look">
+                    <p class="joy_Dutta">Joy Dutta</p>
+                    <p class="Administrator">Administrator</p>
+                </div>
+                <div class="angle_down"><a href="#"><i class="fa-solid fa-angle-down"></i></a></div>
             </div>
-            <div class="angle_down"><a href="#"><i class="fa-solid fa-angle-down"></i></a></div>
-        </div>
         </div>
     </nav>
 </header>
+<div class="container-xl">
+    <div class="row">
+        <div class="col-3">
+            <div class="slider_block"><div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+
+        </div>
+        <div class="col"><img src="img/menu_lines.png"></div>
+    </div>
+</div>
 <!--<aside class="nav">-->
 <!--    <ul class="list">-->
 <!--        <li><a href="#"><i class="fa-solid fa-chart-column"></i></a></li>-->
