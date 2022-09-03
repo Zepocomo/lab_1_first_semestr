@@ -41,31 +41,41 @@
 </header>
 <div id="main" class="container-xl">
     <div class="row">
-        <div class="slider_block"><div id="mySidenav" class="sidenav">
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </div>
-        <div class="col-3">
+        <div class="slider_block">
+            <div id="mySidenav" class="sidenav">
+                <div class="left_nav_box"><img src="img/left_nav_icons/four_cubes.png"><div class = "side_text"><p class="slider_text">Dashboard</p>
+                </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>  <!--style="cursor:pointer" onclick='this.src="img/minus.png"'-->
+            <div class="left_nav_box"><img src="img/left_nav_icons/mail.png"><div class = "side_text"><p class="slider_text">Messages</p>
+            </div><span style="cursor:pointer" onclick="Sidenav()"><img src="img/plus.png" onclick="chg()" id="pls" class="plus"></span></div>
+                <div id="left_nav_box_list" class="list_box">
+                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Overview</p></div></div>
+                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Statistics</p></div></div>
+                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Invoice</p></div></div>
+                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">My Ads</p></div></div>
+                </div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/compass.png"><div class = "side_text"><p class="slider_text">Overview</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+
+            <div class="left_nav_box"><img src="img/left_nav_icons/stats_alt.png"><div class = "side_text"><p class="slider_text">Statistics</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/file.png"><div class = "side_text"><p class="slider_text">Invoice</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">My Ads</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/calendar.png"><div class = "side_text"><p class="slider_text">Calendar</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/star.png"><div class = "side_text"><p class="slider_text">Feedback</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/Notepad.png"><div class = "side_text"><p class="slider_text">Statement</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+            <div class="left_nav_box"><img src="img/left_nav_icons/settings.png"><div class = "side_text"><p class="slider_text">Settings</p>
+            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
             </div>
-            <div class="col"></div>
         </div>
+        <div class="col-3"></div>
+
     </div>
-    <!--<aside class="nav">-->
-    <!--    <ul class="list">-->
-    <!--        <li><a href="#"><i class="fa-solid fa-chart-column"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-clipboard-list"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-calendar-days"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-file-lines"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-sliders"></i></a></li>-->
-    <!--        <li><a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>-->
-    <!--    </ul>-->
-    <!--</aside>-->
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!--  <script src="//kit.fontawesome.com/331bc64f47.js" crossorigin="anonymous"></script>-->
 </html>

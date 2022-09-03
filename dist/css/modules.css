@@ -56,3 +56,15 @@
     background-color: #24262d!important;
 }
 
+.side_text{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    margin-left: 10%;
+}
+
+

@@ -34,3 +34,15 @@
     opacity: 0.71;
     z-index: 10;
 }
+
+.slider_text{
+    margin: 0;
+    font-size: 24px;
+    font-family: "Roboto";
+    color: #a9aaac;
+    position: absolute;
+    z-index: 63;
+}
+
+
+
