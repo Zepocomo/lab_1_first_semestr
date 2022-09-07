@@ -10,6 +10,8 @@
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 100%;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
@@ -72,7 +74,6 @@
 
 .round {
     border-radius: 50%;
-
 }
 
 .bell{
@@ -100,21 +101,23 @@
 }
 
 body {
-
     margin: 0;
     background-color: #212228;
+}
+
+header{
+
 }
 
 /* The side navigation menu */
 .sidenav {
     overflow-y: hidden;
-    height: 100%; /* 100% Full-height */
+    height: 170%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    position: absolute;
     z-index: 1; /* Stay on top */
     left: 0;
     background-color: #24262d;
-    overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 5px; /* Place content 60px from the top */
 
 }
@@ -172,7 +175,29 @@ element.style {
     display: none;
 }
 
+.upper_block{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#main{
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    position: absolute;
+    max-width: -webkit-fill-available;
+    overflow: hidden;
+}
 
+#main_row{
+ --bs-gutter-x: 0;
+}
 
-
+.inner_col{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}

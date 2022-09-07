@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="sass/custom.scss">
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/jquery_code.js"></script>
+
     <style>
         i {
             font-family: fontawesome !important;
@@ -39,43 +42,167 @@
         </div>
     </nav>
 </header>
-<div id="main" class="container-xl">
-    <div class="row">
-        <div class="slider_block">
-            <div id="mySidenav" class="sidenav">
-                <div class="left_nav_box"><img src="img/left_nav_icons/four_cubes.png"><div class = "side_text"><p class="slider_text">Dashboard</p>
-                </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>  <!--style="cursor:pointer" onclick='this.src="img/minus.png"'-->
-            <div class="left_nav_box"><img src="img/left_nav_icons/mail.png"><div class = "side_text"><p class="slider_text">Messages</p>
-            </div><span style="cursor:pointer" onclick="Sidenav()"><img src="img/plus.png" onclick="chg()" id="pls" class="plus"></span></div>
-                <div id="left_nav_box_list" class="list_box">
-                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Overview</p></div></div>
-                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Statistics</p></div></div>
-                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Invoice</p></div></div>
-                    <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">My Ads</p></div></div>
+<div id="mySidenav" class="sidenav">
+    <div class="left_nav_box"><img src="img/left_nav_icons/four_cubes.png"><div class = "side_text"><p class="slider_text">Dashboard</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>  <!--style="cursor:pointer" onclick='this.src="img/minus.png"'-->
+    <div class="left_nav_box"><img src="img/left_nav_icons/mail.png"><div class = "side_text"><p class="slider_text">Messages</p>
+    </div><span style="cursor:pointer" onclick="Sidenav()"><img src="img/plus.png" onclick="chg()" id="pls" class="plus"></span></div>
+    <div id="left_nav_box_list" class="list_box">
+        <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Overview</p></div></div>
+        <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Statistics</p></div></div>
+        <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Invoice</p></div></div>
+        <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">My Ads</p></div></div>
+    </div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/compass.png"><div class = "side_text"><p class="slider_text">Overview</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+
+    <div class="left_nav_box"><img src="img/left_nav_icons/stats_alt.png"><div class = "side_text"><p class="slider_text">Statistics</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/file.png"><div class = "side_text"><p class="slider_text">Invoice</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">My Ads</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/calendar.png"><div class = "side_text"><p class="slider_text">Calendar</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/star.png"><div class = "side_text"><p class="slider_text">Feedback</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/Notepad.png"><div class = "side_text"><p class="slider_text">Statement</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+    <div class="left_nav_box"><img src="img/left_nav_icons/settings.png"><div class = "side_text"><p class="slider_text">Settings</p>
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+</div>
+<div id="menu" class="container-xl">
+    <div id="main_row" class="row">
+        <div id="main">
+            <div class="col-xl">
+                <div class="upper_block">
+                <p class="Dashboard">Dashboard</p>
+                <p class="Wellcome_back_Joy_Dutta___Last_log_in_on_15_feb">Wellcome back Joy Dutta - Last log in on 15 february at 1:30 pm</p>
+                    <div class="widget">
+                <p class="Add_widget">Add widget</p>
+                        <a href="#"><img src="img/Add_widget.png"></a>
+                    </div>
                 </div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/compass.png"><div class = "side_text"><p class="slider_text">Overview</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-
-            <div class="left_nav_box"><img src="img/left_nav_icons/stats_alt.png"><div class = "side_text"><p class="slider_text">Statistics</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/file.png"><div class = "side_text"><p class="slider_text">Invoice</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">My Ads</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/calendar.png"><div class = "side_text"><p class="slider_text">Calendar</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/star.png"><div class = "side_text"><p class="slider_text">Feedback</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/Notepad.png"><div class = "side_text"><p class="slider_text">Statement</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-            <div class="left_nav_box"><img src="img/left_nav_icons/settings.png"><div class = "side_text"><p class="slider_text">Settings</p>
-            </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
             </div>
-        </div>
-        <div class="col-3"></div>
+            <div class="row">
+                <div id="light_blue" class="col-sm">
+                    <div class="round_icons">
+                    <img src="img/main_icons/browse.png">
+                    </div>
+                    <div class="total_num">
+                        <p class="total">Total view</p>
+                        <p class="statistics">121,459</p>
+                    </div>
+                </div>
+                <div id="blue" class="col-sm">
+                    <div class="round_icons">
+                    <img src="img/main_icons/profile.png">
+                    </div>
+                    <div class="total_num">
+                        <p class="total">Total user</p>
+                        <p class="statistics">35,912</p>
+                    </div>
+                </div>
+                <div id="purple" class="col-sm">
+                    <div class="round_icons">
+                    <img src="img/main_icons/rocket.png">
+                    </div>
+                    <div class="total_num">
+                        <p class="total">Server speed</p>
+                        <p class="statistics">1180</p>
+                    </div>
+                </div>
+                <div id="red" class="col-sm">
+                    <div class="round_icons">
+                    <img  src="img/left_nav_icons/mail.png">
+                    </div>
+                    <div class="total_num">
+                        <p class="total">Total massage</p>
+                        <p class="statistics">2536</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+            <div id="line_chart" class="row">
+                <div class="col">
+                    <div class="inner_col">
+                        <div class="upper_inner_col">
+                        <div class="info_col"><p class="blocks_text">Site views - 2016</p></div>
+                        <p class ="dots_other">⋮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="other_charts" class="row">
+                <div id="chart" class="chart">
+                    <div class="inner_col">
+                        <div class="upper_inner_col">
+                            <div class="info_col"><p class="blocks_text">Weekly Earning</p></div>
+                            <p class ="dots_other">⋮</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart">
+                    <div class="inner_col">
+                        <div class="upper_inner_col">
+                            <div class="info_col"><p class="blocks_text">Earn by Country</p></div>
+                            <p class ="dots_other">⋮</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
 
+            <div id="social" class="container">
+                <div id="contacts" class="row">
+                    <div  class="col">
+                        <div class="inner_col">
+                            <div class="upper_inner_col">
+                                <div class="info_col"><p class="blocks_text">Contacts</p></div>
+                                <p class ="dots_other">⋮</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  id="review"  class="row">
+                    <div class="col" >
+                        <div class="inner_col">
+                            <div class="upper_inner_col">
+                                <div class="info_col"><p class="blocks_text">Reviews</p></div>
+                                <p class ="dots_other">⋮</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="dop_content" class="container">
+                <div id="tasks" class="row">
+                    <div  class="col">
+                        <div class="inner_col">
+                            <div class="upper_inner_col">
+                                <div class="info_col"><p class="blocks_text">Tasks</p></div>
+                                <p class ="dots_other">⋮</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div  id="radar_chart"  class="row">
+                    <div class="col" >
+                        <div class="inner_col">
+                            <div class="upper_inner_col">
+                                <div class="info_col"><p class="blocks_text">Radar Chart</p></div>
+                                <p class ="dots_other">⋮</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
     </div>
 </body>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </html>

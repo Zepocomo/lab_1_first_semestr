@@ -44,5 +44,61 @@
     z-index: 63;
 }
 
+.Dashboard {
+    margin: 0;
+    padding: 2%;
+    font-size: 28px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    opacity: 0.82;
+    z-index: 116;
+}
 
+.Wellcome_back_Joy_Dutta___Last_log_in_on_15_feb {
+    margin: 0;
+    font-size: 10px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    z-index: 117;
+}
 
+.Add_widget {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    z-index: 118;
+}
+
+.statistics {
+    color: #b1b2b5;
+    font-size: 24px;
+    font-family: "Roboto";
+    text-align: right;
+    margin: 0;
+    z-index: 151;
+}
+
+.total{
+    color: #b1b2b5;
+    font-size: 10px;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0;
+    z-index: 150;
+}
+
+.blocks_text {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    opacity: 0.749;
+    z-index: 156;
+}
