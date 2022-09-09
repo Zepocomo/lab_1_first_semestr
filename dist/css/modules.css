@@ -137,12 +137,12 @@
     width: 30%;
 }
 
-.chart{
+.chart_{
     flex: 1 0 0%;
     background-color: #282a31;
 }
 
-#chart{
+#chart_{
     margin-bottom: 10px;
 }
 
@@ -211,4 +211,15 @@
     justify-content: space-between;
     width: auto;
     height: auto;
+}
+
+#chart{
+max-width: auto;
+}
+
+.chart-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 85%;
 }

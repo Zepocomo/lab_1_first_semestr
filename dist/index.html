@@ -1,19 +1,16 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/Chart.min.css">
     <link rel="stylesheet" href="css/modules.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="sass/custom.scss">
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-    <script src="js/jquery_code.js"></script>
-
     <style>
         i {
             font-family: fontawesome !important;
@@ -130,19 +127,23 @@
                         <div class="info_col"><p class="blocks_text">Site views - 2016</p></div>
                         <p class ="dots_other">⋮</p>
                         </div>
+                        <div class="chart-container">
+                        <canvas id="line_gradient_chart"> </canvas>
+                        </div>
                     </div>
                 </div>
             </div>
             <div id="other_charts" class="row">
-                <div id="chart" class="chart">
+                <div id="chart_" class="chart_">
                     <div class="inner_col">
                         <div class="upper_inner_col">
                             <div class="info_col"><p class="blocks_text">Weekly Earning</p></div>
                             <p class ="dots_other">⋮</p>
                         </div>
+                        <canvas id="bar_chart"></canvas>
                     </div>
                 </div>
-                <div class="chart">
+                <div class="chart_">
                     <div class="inner_col">
                         <div class="upper_inner_col">
                             <div class="info_col"><p class="blocks_text">Earn by Country</p></div>
@@ -204,5 +205,9 @@
         </div>
     </div>
     </div>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/chart.min.js"></script>
+<script src="js/jquery_code.js"></script>
+<script src="js/scripts.min.js"></script>
 </body>
 </html>
