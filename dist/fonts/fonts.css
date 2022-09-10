@@ -102,3 +102,17 @@
     opacity: 0.749;
     z-index: 156;
 }
+
+
+.England {
+    font-size: 10px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    position: absolute;
+    left: 1200px;
+    top: 654px;
+    width: 35px;
+    height: 11px;
+    z-index: 270;
+}

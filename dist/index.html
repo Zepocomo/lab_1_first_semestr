@@ -63,7 +63,7 @@
     </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
     <div class="left_nav_box"><img src="img/left_nav_icons/star.png"><div class = "side_text"><p class="slider_text">Feedback</p>
     </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
-    <div class="left_nav_box"><img src="img/left_nav_icons/Notepad.png"><div class = "side_text"><p class="slider_text">Statement</p>
+    <div class="left_nav_box"><img src="img/left_nav_icons/notepad.png"><div class = "side_text"><p class="slider_text">Statement</p>
     </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
     <div class="left_nav_box"><img src="img/left_nav_icons/settings.png"><div class = "side_text"><p class="slider_text">Settings</p>
     </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
@@ -149,6 +149,7 @@
                             <div class="info_col"><p class="blocks_text">Earn by Country</p></div>
                             <p class ="dots_other">⋮</p>
                         </div>
+                        <canvas id="doughnut_chart"></canvas>
                     </div>
                 </div>
             </div>
@@ -196,6 +197,9 @@
                                 <div class="info_col"><p class="blocks_text">Radar Chart</p></div>
                                 <p class ="dots_other">⋮</p>
                             </div>
+                            <div class="chart-container">
+                                <canvas id="radar_chart_"></canvas>
+                            </div>
                         </div>
                     </div>
 
@@ -205,9 +209,8 @@
         </div>
     </div>
     </div>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="js/chart.min.js"></script>
-<script src="js/jquery_code.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/scripts.min.js"></script>
 </body>
 </html>
