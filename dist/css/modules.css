@@ -167,6 +167,7 @@
     padding: 0;
     background-color: #282a31;
     margin-right: 0;
+
 }
 
 #dop_content{
@@ -224,3 +225,146 @@ max-width: auto;
     height: 85%;
 }
 
+.contact{
+    background-color: #282a31;
+    width: 100%;
+    height: 16%;
+    border-bottom: 2px solid #313339;
+}
+
+.right{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    float: right;
+}
+
+.contact_look{
+    height: 100%;
+    width: auto;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.name_company{
+    width: auto;
+    height: 100%;
+    margin-left: 14px;
+    display: flex;
+    float: right;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search_contact{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+}
+
+#search_input{
+    width: 90%;
+    display: flex;
+    margin: 0;
+    background-color: #282a31;
+}
+
+.search_button img{
+    width: 80%;
+    height: 80%;
+}
+
+.search{
+    margin-left: 8px
+}
+
+.search_button{
+    margin-left: 1.5%;
+    background-color: #282a31;
+    border: 2px solid #212328;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+display: block;
+font-style: italic;
+width: 100%;
+padding: 0.375rem 0.75rem;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #282a31;
+background-clip: padding-box;
+border: 2px solid #212328;
+border-radius: 0.4rem;
+}
+
+.outter-badge {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+.inner-badge {
+    background-color: #d11e5b;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    border-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+#add_task{
+    width: 90%;
+    display: flex;
+    margin: 0;
+    background-color: #282a31;
+}
+
+
+.form-check-input {
+    background-color: #1e1f24;
+    float: left;
+    margin-top: 25px;
+}
+
+.form-check-input:checked {
+    background-color: #1e1f24;
+    border-color: #1e1f24;
+}
+
+.coment{
+    display: flex;
+    flex-direction: column;
+    background-color: #282a31;
+    color: white;
+    width: 100%;
+    height: 120px;
+}
+
+.stars{
+    margin-bottom: 10px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.stars img{
+    height: 30px;
+}
+
+.status{
+    margin-bottom: 20px;
+}

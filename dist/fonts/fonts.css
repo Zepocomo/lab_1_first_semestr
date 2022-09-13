@@ -116,3 +116,50 @@
     height: 11px;
     z-index: 270;
 }
+
+.Jone_Cena {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    float: top;
+    z-index: 290;
+    margin: 0;
+
+}
+
+.Troyosoft {
+    font-size: 11px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    float: bottom;
+    z-index: 291;
+    margin: 0;
+}
+
+._30_Minute_ago {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #bab9ba;
+    text-align: center;
+    z-index: 354;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.Lorem_Ipsum{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 255, 255, 255 );
+    text-align: left;
+    z-index: 355;
+    color: #bab9ba;
+    /*white-space: pre-line*/
+}
+
+.__Sujit_Dey {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 111, 231, 221 );
+    text-align: left;
+    z-index: 356;
+}

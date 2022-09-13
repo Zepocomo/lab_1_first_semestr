@@ -2,11 +2,11 @@
 <html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/Chart.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/modules.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/fonts.css">
@@ -41,9 +41,10 @@
 </header>
 <div id="mySidenav" class="sidenav">
     <div class="left_nav_box"><img src="img/left_nav_icons/four_cubes.png"><div class = "side_text"><p class="slider_text">Dashboard</p>
-    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>  <!--style="cursor:pointer" onclick='this.src="img/minus.png"'-->
+    </div><span style="cursor:pointer" onclick=""><img src="img/plus.png" class="plus"></span></div>
+
     <div class="left_nav_box"><img src="img/left_nav_icons/mail.png"><div class = "side_text"><p class="slider_text">Messages</p>
-    </div><span style="cursor:pointer" onclick="Sidenav()"><img src="img/plus.png" onclick="chg()" id="pls" class="plus"></span></div>
+    </div><span style="cursor:pointer" onclick="Sidenav()"><img src="img/plus.png" onclick="chg()" id="pls"  class="plus"></span></div>
     <div id="left_nav_box_list" class="list_box">
         <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Overview</p></div></div>
         <div class="left_nav_list_box"><img src="img/left_nav_icons/empty.png"><div class = "side_text"><p class="slider_text">Statistics</p></div></div>
@@ -163,6 +164,66 @@
                                 <div class="info_col"><p class="blocks_text">Contacts</p></div>
                                 <p class ="dots_other">⋮</p>
                             </div>
+                            <div  class="contact">
+                                <div class="contact_look"><div class="badge outter-badge"><img height="40" width="40" src="img/profile_1.jpg" class="round"><div class="badge inner-badge">2</div></div>
+                                    <div class="name_company">
+                                    <p class="Jone_Cena">Jone Cena</p>
+                                    <p class="Troyosoft">Troyosoft</p>
+                                    </div>
+                                    <div class="status"><img src="img/online.png"></div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/massage.png"></a>
+                                    <a href="#"><img src="img/mail.png"></a>
+                                </div>
+                            </div>
+
+
+                            <div  class="contact">
+                                <div class="contact_look"><img height="40" width="40" src="img/profile_2.jpg" class="round">
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Shila Mendez</p>
+                                        <p class="Troyosoft">AZ Security</p>
+                                    </div>
+                                    <div class="status"><img src="img/offline.png"></div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/massage.png"></a>
+                                    <a href="#"><img src="img/mail.png"></a>
+                                </div>
+                            </div>
+                            <div  class="contact">
+                                <div class="contact_look"><div class="badge outter-badge"><img height="40" width="40" src="img/profile_3.jpg" class="round"><div class="badge inner-badge">1</div></div>
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Alex More</p>
+                                        <p class="Troyosoft">ZC software</p>
+                                    </div>
+                                    <div class="status"><img src="img/online.png"></div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/massage.png"></a>
+                                    <a href="#"><img src="img/mail.png"></a>
+                                </div>
+                            </div>
+                            <div  class="contact">
+                                <div class="contact_look"><img height="40" width="40" src="img/profile_4.jpg" class="round">
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Amila Right</p>
+                                        <p class="Troyosoft">Fivegrid Corp</p>
+                                    </div>
+                                    <div class="status"><img src="img/offline.png"></div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/massage.png"></a>
+                                    <a href="#"><img src="img/mail.png"></a>
+                                </div>
+                            </div>
+                            <div  class="search_contact">
+                                <div id="search_input" class="mb-3">
+                                    <input type="text" id="disabledTextInput" class="form"  placeholder="Search contact....">
+                                </div>
+                                <div class="search_button"><a href="#" class="search"><img src="img/lens.png"></a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,9 +234,31 @@
                                 <div class="info_col"><p class="blocks_text">Reviews</p></div>
                                 <p class ="dots_other">⋮</p>
                             </div>
+                            <div class="row">
+                                <div class="coment">
+                                    <div class="stars"><div><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/full_star.png"></div><p class="_30_Minute_ago">30 Minute ago</p></div>
+                                    <p class="Lorem_Ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                        text ever since....</p>
+                                    <p class="__Sujit_Dey">- Sujit Dey</p>
+                                </div>
+                                <div class="coment">
+                                    <div class="stars"><div><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/half_star.png"></div><p class="_30_Minute_ago">1h 13 min ago</p></div>
+                                    <p class="Lorem_Ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                        text ever since....</p>
+                                    <p class="__Sujit_Dey">- Sujit Dey</p>
+                                </div>
+                                <div class="coment">
+                                    <div class="stars"><div><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/full_star.png"><img src="img/half_star.png"><img src="img/empty_star.png"></div><p class="_30_Minute_ago">05 Dec 2015</p></div>
+                                    <p class="Lorem_Ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                        text ever since....</p>
+                                    <p class="__Sujit_Dey">- Sujit Dey</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -187,9 +270,68 @@
                                 <div class="info_col"><p class="blocks_text">Tasks</p></div>
                                 <p class ="dots_other">⋮</p>
                             </div>
+                            <div  class="contact">
+                                    <input class="form-check-input" type="checkbox" value="">
+                                <div class="contact_look">
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Jone Cena</p>
+                                        <p class="Troyosoft">Troyosoft</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/delete.png"></a>
+                                </div>
+                            </div>
+
+                            <div  class="contact">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <div class="contact_look">
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Jone Cena</p>
+                                        <p class="Troyosoft">Troyosoft</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/delete.png"></a>
+                                </div>
+                            </div>
+
+                            <div  class="contact">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <div class="contact_look">
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Jone Cena</p>
+                                        <p class="Troyosoft">Troyosoft</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/delete.png"></a>
+                                </div>
+                            </div>
+
+                            <div  class="contact">
+                                <input class="form-check-input" type="checkbox" value="">
+                                <div class="contact_look">
+                                    <div class="name_company">
+                                        <p class="Jone_Cena">Jone Cena</p>
+                                        <p class="Troyosoft">Troyosoft</p>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <a href="#"><img src="img/delete.png"></a>
+                                </div>
+                            </div>
+
+                            <div  class="search_contact">
+                                <div id="add_task" class="mb-3">
+                                    <input type="text" id="" class="form"  placeholder="Search contact....">
+                                </div>
+                                <div class="search_button"><a href="#" class="search"><img src="img/lens.png"></a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
                 <div  id="radar_chart"  class="row">
                     <div class="col" >
                         <div class="inner_col">
@@ -202,7 +344,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -210,6 +351,7 @@
     </div>
     </div>
 <script src="js/chart.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/scripts.min.js"></script>
 </body>
